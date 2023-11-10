@@ -23,7 +23,7 @@ const Navbar: FC = () => (
           </svg>
         </label>
       </div>
-      <a href="/" className="btn btn-ghost normal-case text-xl">
+      <a href="/portfolio-site" className="btn btn-ghost normal-case text-xl">
         takano's portfolio site
       </a>
     </div>
