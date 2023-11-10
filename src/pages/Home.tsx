@@ -22,11 +22,7 @@ const Home: FC = () => (
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <a
-              href="https://takano536.github.io/portfolio-site/about"
-              role="button"
-              className="btn btn-primary "
-            >
+            <a href="/about" role="button" className="btn btn-primary ">
               ABOUT
             </a>
           </div>
