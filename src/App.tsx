@@ -1,5 +1,5 @@
 import type { FC } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import Home from '@/pages/Home';
 import About from '@/pages/About';
@@ -8,13 +8,13 @@ import Products from '@/pages/Products';
 import NotFound from '@/pages/NotFound';
 
 const App: FC = () => (
-  <Routes>
+  <BrowserRouter>
     <Route path="/portfolio-site/" element={<Home />} />
     <Route path="/portfolio-site/about" element={<About />} />
     <Route path="/portfolio-site/history" element={<History />} />
     <Route path="/portfolio-site/products" element={<Products />} />
     <Route path="/*" element={<NotFound />} />
-  </Routes>
+  </BrowserRouter>
 );
 
 export default App;
