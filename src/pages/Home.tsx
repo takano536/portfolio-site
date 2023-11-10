@@ -1,5 +1,6 @@
 import type { FC } from 'react';
 
+import Img from '@/assets/attakai-nokogiri-512.png';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -12,7 +13,7 @@ const Home: FC = () => (
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="/src/assets/attakai-nokogiri-512.png"
+            src={Img}
             className="max-w-sm rounded-3xl shadow-2xl bg-base-100"
           />
           <div>
@@ -22,7 +23,11 @@ const Home: FC = () => (
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <a href="/about" role="button" className="btn btn-primary ">
+            <a
+              href="/portfolio-site/about"
+              role="button"
+              className="btn btn-primary "
+            >
               ABOUT
             </a>
           </div>
