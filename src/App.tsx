@@ -9,11 +9,26 @@ import NotFound from '@/pages/NotFound';
 
 const App: FC = () => (
   <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/about" element={<About />} />
-    <Route path="/history" element={<History />} />
-    <Route path="/products" element={<Products />} />
-    <Route path="/*" element={<NotFound />} />
+    <Route
+      path="https://takano536.github.io/portfolio-site/"
+      element={<Home />}
+    />
+    <Route
+      path="https://takano536.github.io/portfolio-site/about"
+      element={<About />}
+    />
+    <Route
+      path="https://takano536.github.io/portfolio-site/history"
+      element={<History />}
+    />
+    <Route
+      path="https://takano536.github.io/portfolio-site/products"
+      element={<Products />}
+    />
+    <Route
+      path="https://takano536.github.io/portfolio-site/*"
+      element={<NotFound />}
+    />
   </Routes>
 );
 
