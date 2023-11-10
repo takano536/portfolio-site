@@ -1,7 +1,5 @@
 import type { FC } from 'react';
 
-import ThemeSwitch from './ThemeSwitch';
-
 const Navbar: FC = () => (
   <div className="navbar bg-base-100">
     <div className="navbar-start">
@@ -23,11 +21,11 @@ const Navbar: FC = () => (
           </svg>
         </label>
       </div>
-      <a href="/portfolio-site" className="btn btn-ghost normal-case text-xl">
+      <a href="/portfolio-site/" className="btn btn-ghost normal-case text-xl">
         takano's portfolio site
       </a>
     </div>
-    <div className="navbar-center hidden lg:flex">
+    <div className="navbar-end hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
         <li>
           <a href="/portfolio-site/about">About</a>
@@ -39,9 +37,6 @@ const Navbar: FC = () => (
           <a href="/portfolio-site/products">Products</a>
         </li>
       </ul>
-    </div>
-    <div className="navbar-end">
-      <ThemeSwitch />
     </div>
   </div>
 );
