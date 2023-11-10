@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && cp -r dist docs",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "lint:es": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:es:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
@@ -15,7 +15,7 @@
     "lint:fix": "npm run --silent lint:style:fix; npm run --silent lint:es:fix",
     "lint": "npm run --silent lint:style; npm run --silent lint:es",
     "format": "prettier --write src",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "daisyui": "^3.9.4",
