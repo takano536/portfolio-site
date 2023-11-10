@@ -23,7 +23,7 @@ const Home: FC = () => (
               et a id nisi.
             </p>
             <a
-              href="https://takano536.github.io/portfolio-site/about"
+              href="/portfolio-site/about"
               role="button"
               className="btn btn-primary "
             >

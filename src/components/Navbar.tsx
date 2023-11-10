@@ -30,17 +30,13 @@ const Navbar: FC = () => (
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
         <li>
-          <a href="https://takano536.github.io/portfolio-site/about">About</a>
+          <a href="/portfolio-site/about">About</a>
         </li>
         <li>
-          <a href="https://takano536.github.io/portfolio-site/history">
-            History
-          </a>
+          <a href="/portfolio-site/history">History</a>
         </li>
         <li>
-          <a href="https://takano536.github.io/portfolio-site/products">
-            Products
-          </a>
+          <a href="/portfolio-site/products">Products</a>
         </li>
       </ul>
     </div>
