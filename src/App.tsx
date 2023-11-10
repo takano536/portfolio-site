@@ -9,11 +9,11 @@ import NotFound from '@/pages/NotFound';
 
 const App: FC = () => (
   <Routes>
-    <Route path="/portfolio-site/" element={<Home />} />
-    <Route path="/portfolio-site/about" element={<About />} />
-    <Route path="/portfolio-site/history" element={<History />} />
-    <Route path="/portfolio-site/products" element={<Products />} />
-    <Route path="/portfolio-site/*" element={<NotFound />} />
+    <Route path="/" element={<Home />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/history" element={<History />} />
+    <Route path="/products" element={<Products />} />
+    <Route path="/*" element={<NotFound />} />
   </Routes>
 );
 
