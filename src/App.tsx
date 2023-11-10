@@ -3,8 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from '@/pages/Home';
 import About from '@/pages/About';
-import History from './pages/History';
-import Products from './pages/Products';
+import History from '@/pages/History';
+import Products from '@/pages/Products';
 import NotFound from '@/pages/NotFound';
 
 const App: FC = () => (
