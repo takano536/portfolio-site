@@ -13,7 +13,7 @@ const Home: FC = () => (
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="/src/assets/attakai-nokogiri-512.png"
-            className="max-w-sm rounded-3xl shadow-2xl bg-primary-content"
+            className="max-w-sm rounded-3xl shadow-2xl bg-base-100"
           />
           <div>
             <h1 className="text-5xl font-bold">Hi! I'm takano😇</h1>
@@ -22,7 +22,9 @@ const Home: FC = () => (
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">About me</button>
+            <a href="/about" role="button" className="btn btn-primary ">
+              ABOUT
+            </a>
           </div>
         </div>
       </div>
